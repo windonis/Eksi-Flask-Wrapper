@@ -40,7 +40,7 @@ def find_best(part):
     try:
         python_object = { "id_entry": id_entry,"yazar":yazar,"fav": fav,"tarih": tarih,"entry": entry_array, "konu":entry_link }
     except:
-        print("sorun yok devam")
+        print("sorun yok desvam")
     return python_object
 
 app = Flask(__name__)
